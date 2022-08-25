@@ -1,0 +1,4 @@
+#Ignorando a venv
+venv
+.idea
+.vscode
