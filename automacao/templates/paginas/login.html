@@ -25,6 +25,7 @@
             <label class="form-check-label" for="exampleCheck1">lembrar-me</label>
           </div>
           <button type="submit" class="btn btn-primary">Entrar</button>
+          <a class="btn btn-primary" href="{% url 'cadastro' %}">Cadastre-se</a>
             <div class="erro">
                 {% if messages %}
                         {% for message in messages %}
